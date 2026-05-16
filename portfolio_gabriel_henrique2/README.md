@@ -36,3 +36,5 @@ Projeto simples para gerenciar tarefas onde é possível:
 
 Email: ghenriquealves91@gmail.com  
 GitHub: https://github.com/GabrielHenrique91
+Linkedin: https://www.linkedin.com/in/gabriel-henrique-73054940a/
+
