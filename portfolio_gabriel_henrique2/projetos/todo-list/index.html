@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+    <h1>Lista de Tarefas</h1>
+
+    <input id="tarefa">
+    <button onclick="add()">Adicionar</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        function add() {
+            let texto = document.getElementById("tarefa").value;
+
+            let li = document.createElement("li");
+            li.textContent = texto;
+
+            document.getElementById("lista").appendChild(li);
+        }
+    </script>
+
+</body>
+</html>
